@@ -1,0 +1,21 @@
+# MySQL Information for tokens
+mysql:
+  host: localhost
+  port: 3306
+  username: username
+  password: password
+  database: skyblockwarriors
+
+# The lobby lilypad instance name
+# The commands are /lobby and /hub
+lobby: hub
+
+# This will will deterem what "mode" the plugin will start in
+# if its set to false it will only allow OP's online or people
+# with permission to setup the plugin, so spawns can be set
+# If its set to true it will wait for players to come online so
+# the game can auto start
+#
+# DO NOT TOUCH THIS LINE
+# The plugin will automaticly change it when the setup process is done
+arena-setup: false

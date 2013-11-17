@@ -1,0 +1,24 @@
+name: SkyblockWarriors
+main: net.Senither.skyblockwarriors.SkyblockWarriors
+author: Senither
+description: Skyblock Warriors MiniGame
+version: 0.9.3 R0.3
+depend: [LilyPad-Connect]
+commands:
+   skyblockwarriors:
+      description: Main command
+      aliases: [skyblock,sw,sbw]
+   setup:
+      description: Setup command.
+      aliases: [st,su]
+   lobby:
+      description: Takes you back to the lobby.
+      aliases: [hub]
+   shop:
+      description: Takes you back to the lobby.
+      aliases: [store]
+   tokens:
+      description: Show how many tokens you have.
+      aliases: [token, bal, balance, money, cash, t]
+   author:
+      description: Show the author of the plugin
